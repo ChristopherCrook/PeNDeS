@@ -1,0 +1,37 @@
+{
+  "components": {
+    "visualizers": {
+      "PeNDeS": {
+        "src": "panels/PeNDeS/PeNDeSPanel",
+        "title": "PeNDeS",
+        "panel": "src/visualizers/panels/PeNDeS",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/PeNDeS"
+      }
+    },
+    "seeds": {
+      "PetriNet": {
+        "src": "src/seeds/PetriNet"
+      }
+    },
+    "addons": {},
+    "decorators": {},
+    "layouts": {},
+    "plugins": {
+      "PetriNetCheck": {
+        "src": "src/plugins/PetriNetCheck",
+        "test": "test/plugins/PetriNetCheck"
+      }
+    },
+    "routers": {}
+  },
+  "dependencies": {
+    "visualizers": {},
+    "seeds": {},
+    "addons": {},
+    "decorators": {},
+    "layouts": {},
+    "plugins": {},
+    "routers": {}
+  }
+}
